@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link type="text/css" rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="form__container">
+        <div class="form--info">
+            <h2>Welcome</h2>
+            <p class="small">Choose the authentication method</p>
+            <form class="form" action="">
+                <div class="form__item">
+                    <label for="name">Username</label><br>
+                    <input type="text" id="name" name="name" autocomplete="off">
+                </div>
+                
+                <div class="form__item">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" autocomplete="off">
+                </div>
+
+                <div class="options">
+                    <div>
+                        <label for="check">Remember me</label>
+                        <input type="checkbox" id="check">
+                    </div>
+                    <a href="#">I forgot my password</a>
+                </div>
+                <div class="form__item form--submit">
+                    <input type="submit" value="Log in">
+                </div>
+
+                <p class="small">Choose another method to authenticate</p>
+                <div class="providers">
+                    <button class="btn btn-google">Google</button>
+                    <button class="btn btn-facebook">Facebook</button>
+                    <button class="btn btn-twitter">Twitter</button>
+                </div>
+            </form>
+        </div>
+        <div class="image">
+            <img src="./win11.jpg" alt="image">
+        </div>
+    </div>
+
+</body>
+</html>
